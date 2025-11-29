@@ -163,6 +163,10 @@ export { InsertResult } from "./query-builder/result/InsertResult"
 export { UpdateResult } from "./query-builder/result/UpdateResult"
 export { DeleteResult } from "./query-builder/result/DeleteResult"
 export { ReturningOption } from "./query-builder/ReturningOption"
+export {
+    QueryPartialEntity,
+    QueryDeepPartialEntity,
+} from "./query-builder/QueryPartialEntity"
 export { QueryResult } from "./query-runner/QueryResult"
 export { QueryRunner } from "./query-runner/QueryRunner"
 export { MongoEntityManager } from "./entity-manager/MongoEntityManager"
